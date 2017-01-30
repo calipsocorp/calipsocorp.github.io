@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">  
+
+    <title>CalipsoCorp</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="myBootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" onclick="btnMain('index')" ><i class="fa fa-ra"></i> CalipsoCorp</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+	            <ul class="nav navbar-nav">
+
+	                <li>
+	                    <a href="#" onclick="btnMain('CalipsoBazar')" >CalipsoBazar</a>
+	                </li>
+
+	                <li>
+	                    <a href="#" onclick="btnMain('CalipsoSense')" >CalipsoSense</a>
+	                </li>
+
+	                <li>
+	                    <a href="#" onclick="btnMain('CalipsoTools')" >CalipsoTools</a>
+	                </li>
+
+	                <li>
+	                    <a href="#" onclick="btnMain('Calipso7sfx')" >Calipso7sfx</a>
+	                </li>
+
+	                <li>
+	                    <a href="#" onclick="btnMain('CalipsoPing')" >CalipsoPing</a>
+	                </li>
+	                
+	            </ul>
+	        </div>
+	        <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Page Content -->
+    <div class="container">
+
+    	<!-- index -->
+    	<div id="index" class="col-lg-12" style="">
+    		<h3>CalipsoCorp</h3>
+
+			<img class="img-responsive" src="https://i.imgur.com/TLCtkQn.png" alt="">
+
+			<p>Take a look at some of our Projects.</p>
+
+			<br/>
+
+			<div class="btn-group">
+				<a class="btn btn-default" onclick="btnMain('CalipsoBazar')">CalipsoBazar</a>
+				<a class="btn btn-default" onclick="btnMain('Calipso7sfx')">CalipsoSense</a>
+				<a class="btn btn-default" onclick="btnMain('CalipsoTools')">CalipsoTools</a>
+				<a class="btn btn-default" onclick="btnMain('Calipso7sfx')">Calipso7sfx</a>
+				<a class="btn btn-default" onclick="btnMain('CalipsoSense')">CalipsoPing</a>
+			</div>
+    		
+    	</div>
+
+    	<!-- CalipsoBazar -->
+        <div id="CalipsoBazar" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/CalipsoBazar" target="_blank">
+            	<h3>CalipsoBazar <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://i.imgur.com/EYGeSDm.png" alt="">
+
+            <p>Simple Video Converter, Downloader and Online Player GUI Wrapper for ffmpeg, youtube-dl and mpv.</p>
+            <p>You have to download ffmpeg.exe, youtube-dl.exe and mpv.exe to make it work.</p>.
+
+            <br/>
+
+            <div class="btn-group">
+	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoBazar/releases/download/0.1/CalipsoBazar.exe">
+	            	<i class="fa fa-download"></i> Download
+	            </a>
+	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+            </div>
+
+        </div>
+
+    	<!-- Calipso7sfx -->
+        <div id="Calipso7sfx" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/Calipso7sfx" target="_blank">
+                <h3>Calipso7sfx <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://i.imgur.com/n3ORiAV.png" alt="">
+
+            <p>Simple 7sfx Portable Maker.</p>
+
+            <br/>
+
+            <div class="btn-group">
+	            <a class="btn btn-primary" href="https://github.com/alejandro7x/Calipso7sfx/releases/download/0.5/Calipso7sfx.zip">
+	                <i class="fa fa-download"></i> Download
+	            </a>
+	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+            </div>
+
+        </div>
+
+        <!-- CalipsoPing -->
+        <div id="CalipsoPing" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/CalipsoPing" target="_blank">
+                <h3>CalipsoPing <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://i.imgur.com/0NRGsdU.png" alt="">
+
+            <p>Simple Ping Meter.</p>
+
+            <br/>
+
+            <div class="btn-group">
+	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoPing/releases/download/0.2/CalipsoPing.exe">
+	                <i class="fa fa-download"></i> Download
+	            </a>
+	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+            </div>
+
+        </div>
+
+    	<!-- CalipsoTools -->
+        <div id="CalipsoTools" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/CalipsoPing" target="_blank">
+                <h3>CalipsoTools <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://i.imgur.com/qdJcutG.png" alt="">
+
+            <p>Simple Tools Launcher.</p>
+
+            <br/>
+
+            <div class="btn-group">
+	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoTools/releases/download/2.0/CalipsoTools.exe">
+	                <i class="fa fa-download"></i> Download
+	            </a>
+	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+            </div>
+
+        </div>
+
+        <!-- CalipsoSense -->
+        <div id="CalipsoSense" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/CalipsoSense" target="_blank">
+                <h3>CalipsoSense <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://i.imgur.com/c1vuji0.png" alt="">
+
+            <p>Free, Lightweigth and non intrusive placebo Antivirus.</p>
+            <p>Designed to solve all your computer security problems without having to worry about it.</p>
+
+            <br/>
+
+            <div class="btn-group">
+	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoSense/releases/download/2017/CalipsoSense.setup.exe">
+	                <i class="fa fa-download"></i> Download
+	            </a>
+	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Javascript -->          
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="myScript.min.js"></script>
+
+</body>
+
+</html>
