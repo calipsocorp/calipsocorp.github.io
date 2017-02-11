@@ -38,45 +38,18 @@
 	        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 
 	            <ul class="nav navbar-nav">
-                    
-                    <!--<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apps <span class="caret"></span></a>
-                        <ul class="dropdown-menu">-->
 
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoBazar')" >CalipsoBazar</a>
-                            </li>
+                    <li>
+                    	<a href="#" onclick="btnMain('catalogue')" ><i class="fa fa-book"></i> Catalogue</a>
+                    </li>
+					
+					<li>
+                    	<a href="#" onclick="btnMain('dependencies')" ><i class="fa fa-cubes"></i> Dependencies</a>
+                    </li>
 
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoSense')" >CalipsoSense</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoTools')" >CalipsoTools</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoCef')" >CalipsoCef</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoReSync')" >CalipsoReSync</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('SyncNotify')" >SyncNotify</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('Calipso7sfx')" >Calipso7sfx</a>
-                            </li>
-
-                            <li>
-                                <a href="#" onclick="btnMain('CalipsoPing')" >CalipsoPing</a>
-                            </li>
-
-                        </ul>
-                    <!--</li>-->
+                    <li>
+                    	<a href="https://github.com/alejandro7x/" target="_blank"><i class="fa fa-info"></i> About Me</a>
+                    </li>
 
 	            </ul>
 	        </div>
@@ -88,36 +61,168 @@
     <!-- Page Content -->
     <div class="container">
 
-    	<!-- index -->
+		<!-- index -->
     	<div id="index" class="col-lg-12" style="">
+
     		<h3>CalipsoCorp</h3>
+
+    		</br>
 
 			<img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoLogo.png?raw=true" alt="">
 
 			<p>Take a look at some of our Projects.</p>
 
 			<br/>
+    		
+    		<a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Catalogue</a>
+    		<a class="btn btn-default" onclick="btnMain('dependencies')"><i class="fa fa-cubes"></i> Dependencies</a>
+    		<a class="btn btn-default" href="https://github.com/alejandro7x/" target="_blank"><i class="fa fa-info"></i> About Me</a>
 
-			<div class="btn-group">
-				<a class="btn btn-default" onclick="btnMain('CalipsoBazar')">CalipsoBazar</a>
-				<a class="btn btn-default" onclick="btnMain('CalipsoSense')">CalipsoSense</a>
-				<a class="btn btn-default" onclick="btnMain('CalipsoTools')">CalipsoTools</a>
-			</div>
+    	</div>
 
-			<br/>
+    	<!-- catalogue -->
+    	<div id="catalogue" class="col-lg-12" style="display:none;">
+
+			<h3>Catalogue</h3>
 			
-			<div class="btn-group">
-                <a class="btn btn-default" onclick="btnMain('CalipsoCef')">CalipsoCef</a>
-                <a class="btn btn-default" onclick="btnMain('CalipsoReSync')">CalipsoReSync</a>
-				<a class="btn btn-default" onclick="btnMain('SyncNotify')">SyncNotify</a>
-			</div>
-            
-            <br/>
-            
-            <div class="btn-group">
-                <a class="btn btn-default" onclick="btnMain('Calipso7sfx')">Calipso7sfx</a>
-                <a class="btn btn-default" onclick="btnMain('CalipsoPing')">CalipsoPing</a>
-            </div>
+			</br>
+
+			<row>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoBazar')">
+						CalipsoBazar
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoBazar.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoSense')">
+						CalipsoBazar
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoSense.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoTools')">
+						CalipsoTools
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoTools.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoCef')">
+						CalipsoCef
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoCef.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+				
+			</row>
+
+			<row>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoReSync')">
+						CalipsoReSync
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoReSync.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('SyncNotify')">
+						SyncNotify
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/SyncNotify.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('Calipso7sfx')">
+						Calipso7sfx
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/Calipso7sfx.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-3">
+					<a class="clickable" onclick="btnMain('CalipsoPing')">
+						CalipsoPing
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoPing.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+			</row>
+
+			<row>
+				<div class="col-lg-12">
+					<a class="btn btn-default" onclick="btnMain('index')"><i class="fa fa-ra"></i> Back to Index</a>
+				</div>
+			</row>
+
+    	</div>
+
+    	<!-- dependencies -->
+    	<div id="dependencies" class="col-lg-12" style="display:none;" >
+    		
+    		<h3>Dependencies</h3>
+
+    		</br>
+
+    		<row>
+				
+				<div class="col-lg-2"></div>
+
+    			<div class="col-lg-4">
+					<a class="clickable" href="https://www.microsoft.com/en-us/download/details.aspx?id=53344" target="_blank">
+						.Net Framework 4.6.2
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/dependencies/net.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-4">
+					<a class="clickable" href="https://www.microsoft.com/en-in/download/details.aspx?id=40784" target="_blank">
+						Visual C++ 2013
+						<img class="img-responsive" 
+							src="https://github.com/alejandro7x/image-repository/blob/master/dependencies/visualc++.png?raw=true" 
+							alt=""
+						>
+					</a>
+				</div>
+
+				<div class="col-lg-2"></div>
+
+    		</row>
+			
+			<row>
+				<div class="col-lg-12">
+					<a class="btn btn-default" onclick="btnMain('index')"><i class="fa fa-ra"></i> Back to Index</a>
+				</div>
+			</row>
     		
     	</div>
 
@@ -128,9 +233,10 @@
             	<h3>CalipsoBazar <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoBazar.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoBazar.png?raw=true" alt="">
 
             <p>Simple Video Converter, Downloader and Online Player GUI Wrapper for ffmpeg, youtube-dl and mpv.</p>
+            <p>Requires .Net Framework 4.6.2 (x64)</p>
 
             <br/>
 
@@ -138,7 +244,7 @@
 	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoBazar/releases" target="_blank">
 	            	<i class="fa fa-download"></i> Download
 	            </a>
-	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+	            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -150,7 +256,7 @@
                 <h3>Calipso7sfx <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/Calipso7sfx.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/Calipso7sfx.png?raw=true" alt="">
 
             <p>Simple 7sfx Portable Maker.</p>
 
@@ -160,7 +266,7 @@
                 <a class="btn btn-primary" href="https://github.com/alejandro7x/Calipso7sfx/releases" target="_blank">
                     <i class="fa fa-download"></i> Download
                 </a>
-	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+	            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -172,7 +278,7 @@
                 <h3>CalipsoPing <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoPing.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoPing.png?raw=true" alt="">
 
             <p>Simple Ping Meter.</p>
 
@@ -182,7 +288,7 @@
 	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoPing/releases" target="_blank">
 	                <i class="fa fa-download"></i> Download
 	            </a>
-	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+	            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -190,11 +296,11 @@
     	<!-- CalipsoTools -->
         <div id="CalipsoTools" class="col-lg-12" style="display:none;" >
 
-            <a href="https://github.com/alejandro7x/CalipsoPing" target="_blank">
+            <a href="https://github.com/alejandro7x/CalipsoTools" target="_blank">
                 <h3>CalipsoTools <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoTools.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoTools.png?raw=true" alt="">
 
             <p>Simple PC Fixing Tools Launcher.</p>
 
@@ -204,7 +310,7 @@
 	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoTools/releases" target="_blank">
 	                <i class="fa fa-download"></i> Download
 	            </a>
-	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+	            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -216,7 +322,7 @@
                 <h3>CalipsoSense <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoSense.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoSense.png?raw=true" alt="">
 
             <p>Free, Lightweigth and non intrusive placebo Antivirus.</p>
             <p>Designed to solve all your computer security problems without having to worry about it.</p>
@@ -227,7 +333,7 @@
 	            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoSense/releases" target="_blank">
 	                <i class="fa fa-download"></i> Download
 	            </a>
-	            <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+	            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -239,9 +345,10 @@
                 <h3>SyncNotify <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/SyncNotify.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/SyncNotify.png?raw=true" alt="">
 
             <p>Simple Syncthing Launcher and Notify Icon.</p>
+            <p>Requires .Net Framework 4.6.2 (x86)</p>
 
             <br/>
 
@@ -249,7 +356,7 @@
                 <a class="btn btn-primary" href="https://github.com/alejandro7x/SyncNotify/releases" target="_blank">
                     <i class="fa fa-download"></i> Download
                 </a>
-                <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+                <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -261,10 +368,10 @@
                 <h3>CalipsoCef <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoCef.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoCef.png?raw=true" alt="">
 
             <p>Chromium Embedded Framework Wrapper made on Winforms/C#.</p>
-            <p>Requires .Net Framework 4.6.2 (x86) and Visual C++ Redistributable 2013 (x64)</p>
+            <p>Requires .Net Framework 4.6.2 (x64) and Visual C++ Redistributable 2013 (x64)</p>
 
             <br/>
 
@@ -272,7 +379,7 @@
                 <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoCef/releases" target="_blank">
                     <i class="fa fa-download"></i> Download
                 </a>
-                <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+                <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
@@ -284,9 +391,10 @@
                 <h3>CalipsoReSync <i class="fa fa-github"></i></h3> 
             </a>
 
-            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/CalipsoReSync.png?raw=true" alt="">
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoReSync.png?raw=true" alt="">
 
             <p>Resilio Sync Service Notify Icon Wrapper.</p>
+            <p>Requires .Net Framework 4.6.2 (x86)</p>
             <p>You Have to Install Resilio Sync as a Service on Windows</p>
 
             <br/>
@@ -295,7 +403,7 @@
                 <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoReSync/releases" target="_blank">
                     <i class="fa fa-download"></i> Download
                 </a>
-                <a class="btn btn-default" onclick="btnMain('index')">Back</a>
+                <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
             </div>
 
         </div>
