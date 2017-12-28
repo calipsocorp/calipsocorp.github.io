@@ -59,7 +59,7 @@
     </nav>
     
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
 		<!-- index -->
     	<div id="index" class="col-lg-12" style="">
@@ -81,15 +81,13 @@
     	</div>
 
     	<!-- catalogue -->
-    	<div id="catalogue" class="col-lg-12" style="display:none;">
+    	<div id="catalogue" style="display:none;">
 
 			<h3>Catalogue</h3>
 			
 			</br>
 
-			<row>
-
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<a class="clickable" onclick="btnMain('CalipsoBazar')">
 						Video Converter / Downloader / Online Player
 						<img class="img-responsive" 
@@ -99,7 +97,7 @@
 					</a>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<a class="clickable" onclick="btnMain('CalipsoSense')">
 						Placebo Antivirus
 						<img class="img-responsive" 
@@ -109,7 +107,7 @@
 					</a>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<a class="clickable" onclick="btnMain('CalipsoTools')">
 						Fixing Tools Launcher
 						<img class="img-responsive" 
@@ -119,21 +117,17 @@
 					</a>
 				</div>
 
-				<div class="col-lg-3">
-					<a class="clickable" onclick="btnMain('CalipsoCef')">
-						CEF Wrapper
-						<img class="img-responsive" 
-							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoCef.png?raw=true" 
-							alt=""
-						>
-					</a>
-				</div>
-				
-			</row>
+                <div class="col-md-3">
+                    <a class="clickable" onclick="btnMain('CalipsoCef')">
+                        CEF Wrapper
+                        <img class="img-responsive" 
+                            src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoCef.png?raw=true" 
+                            alt=""
+                        >
+                    </a>
+                </div>
 
-			<row>
-
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<a class="clickable" onclick="btnMain('CalipsoReSync')">
 						Resilio Sync Launcher
 						<img class="img-responsive" 
@@ -143,7 +137,7 @@
 					</a>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<a class="clickable" onclick="btnMain('SyncNotify')">
 						Syncthing Launcher
 						<img class="img-responsive" 
@@ -152,34 +146,48 @@
 						>
 					</a>
 				</div>
+            
 
-				<div class="col-lg-3">
-					<a class="clickable" onclick="btnMain('Calipso7sfx')">
-						Portable 7sfx Maker
-						<img class="img-responsive" 
-							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/Calipso7sfx.png?raw=true" 
-							alt=""
-						>
-					</a>
-				</div>
+                <div class="col-md-3">
+                    <a class="clickable" onclick="btnMain('Calipso7sfx')">
+                        Portable 7sfx Maker
+                        <img class="img-responsive" 
+                            src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/Calipso7sfx.png?raw=true" 
+                            alt=""
+                        >
+                    </a>
+                </div>
 
-				<div class="col-lg-3">
-					<a class="clickable" onclick="btnMain('CalipsoPing')">
-						Ping Meter
-						<img class="img-responsive" 
-							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoPing.png?raw=true" 
-							alt=""
-						>
-					</a>
-				</div>
 
-			</row>
+                <div class="col-md-3">
+                    <a class="clickable" onclick="btnMain('CalipsoPing')">
+                        Ping Meter
+                        <img class="img-responsive" 
+                            src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoPing.png?raw=true" 
+                            alt=""
+                        >
+                    </a>
+                </div>
 
-			<row>
-				<div class="col-lg-12">
+
+                <div class="col-md-3">
+                    <a class="clickable" onclick="btnMain('CalipsoRandom')">
+                        CalipsoRandom
+                        <img class="img-responsive" 
+                            src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoRandom.png?raw=true" 
+                            alt=""
+                        >
+                    </a>
+                </div>
+
+
+            <div clas="row">
+
+				<div class="col-md-12">
 					<a class="btn btn-default" onclick="btnMain('index')"><i class="fa fa-ra"></i> Back to Index</a>
 				</div>
-			</row>
+            
+            </div>
 
     	</div>
 
@@ -196,7 +204,7 @@
 
     			<div class="col-lg-4">
 					<a class="clickable" href="https://www.microsoft.com/en-us/download/details.aspx?id=53344" target="_blank">
-						.Net Framework 4.6.2
+						.Net Framework 4.5
 						<img class="img-responsive" 
 							src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/net.png?raw=true" 
 							alt=""
@@ -236,7 +244,7 @@
             <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoBazar.png?raw=true" alt="">
 
             <p>Simple Video Converter, Downloader and Online Player GUI Wrapper for ffmpeg, youtube-dl and mpv.</p>
-            <p>Requires .Net Framework 4.6.2 (x64)</p>
+            <p>Requires .Net Framework 4.5 (x64)</p>
 
             <br/>
 
@@ -338,7 +346,7 @@
             <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/SyncNotify.png?raw=true" alt="">
 
             <p>Simple Syncthing Launcher and Notify Icon.</p>
-            <p>Requires .Net Framework 4.6.2 (x86)</p>
+            <p>Requires .Net Framework 4.5 (x86)</p>
 
             <br/>
 
@@ -359,7 +367,7 @@
             <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoCef.png?raw=true" alt="">
 
             <p>Chromium Embedded Framework Wrapper made on Winforms/C#.</p>
-            <p>Requires .Net Framework 4.6.2 (x64) and Visual C++ Redistributable 2013 (x64)</p>
+            <p>Requires .Net Framework 4.5 (x64) and Visual C++ Redistributable 2013 (x64)</p>
 
             <br/>
 
@@ -380,12 +388,33 @@
             <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoReSync.png?raw=true" alt="">
 
             <p>Resilio Sync Service Notify Icon Wrapper.</p>
-            <p>Requires .Net Framework 4.6.2 (x86)</p>
+            <p>Requires .Net Framework 4.5 (x86)</p>
             <p>You Have to Install Resilio Sync as a Service on Windows</p>
 
             <br/>
 
             <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoReSync/releases" target="_blank">
+                <i class="fa fa-download"></i> Download
+            </a>
+            <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
+
+        </div>
+
+        <!-- CalipsoRandom -->
+        <div id="CalipsoRandom" class="col-lg-12" style="display:none;" >
+
+            <a href="https://github.com/alejandro7x/CalipsoRandom" target="_blank">
+                <h3>CalipsoRandom <i class="fa fa-github"></i></h3> 
+            </a>
+
+            <img class="img-responsive" src="https://github.com/alejandro7x/image-repository/blob/master/catalogue/CalipsoRandom.png?raw=true" alt="">
+
+            <p>CalipsoRandom.</p>
+            <p>Select a random video, image or song from a local or network folder</p>
+
+            <br/>
+
+            <a class="btn btn-primary" href="https://github.com/alejandro7x/CalipsoRandom/releases" target="_blank">
                 <i class="fa fa-download"></i> Download
             </a>
             <a class="btn btn-default" onclick="btnMain('catalogue')"><i class="fa fa-book"></i> Back to Catalogue</a>
